@@ -92,7 +92,7 @@ const renderField = ({
     id
   }) => (
       <div>
-        <input {...input} type={type} id={id} />
+        <input {...input} type={type} id={id} className="form-control" />
         {touched && error && <div className="alert alert-danger">{error}</div>}
       </div>
   );
